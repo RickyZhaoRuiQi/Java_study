@@ -2,7 +2,7 @@ import java.awt.*;
 import java.util.Arrays;
 
 /*
- *      Java学习代码 赵睿琦
+ *      Java学习代码 赵睿琦.
  */
 
 class Book
@@ -50,7 +50,7 @@ public class Main
     public static void main(String[] args)
     {
         Book book = new Book(1);
-        Book book1 = new Book(3);
+        new Book(3);
         System.gc();
     }
 }
