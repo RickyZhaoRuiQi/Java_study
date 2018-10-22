@@ -1,4 +1,5 @@
 import java.io.Console;
+import java.text.NumberFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -43,7 +44,7 @@ public class Main
         }*/
 
         //LocalDate使用事例
-        LocalDate date = LocalDate.now();
+        /*LocalDate date = LocalDate.now();
         int month = date.getMonthValue();  //得到当前月份
         int today = date.getDayOfMonth();  //得到当前日
 
@@ -66,5 +67,13 @@ public class Main
             if(date.getDayOfWeek().getValue() == 1)
                 System.out.println();
         }
+        if(date.getDayOfWeek().getValue() != 1)
+            System.out.println();*/
+
+        /*NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
+        NumberFormat percentFormatter = NumberFormat.getPercentInstance();
+        double x = 0.1;
+        System.out.println(currencyFormatter.format(x));
+        System.out.println(percentFormatter.format(x));*/
     }
 }
