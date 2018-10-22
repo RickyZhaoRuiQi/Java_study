@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 /**
  * 继承
@@ -11,7 +12,7 @@ public class ManagerTest
 {
     public static void main(String[] srgs)
     {
-        Manger boss = new Manger("Zhao Ruiqi",80000,
+        /*Manger boss = new Manger("Zhao Ruiqi",80000,
                 2018,7,1);
         boss.setBonus(5000);
 
@@ -20,7 +21,17 @@ public class ManagerTest
         staff[1]=new hireling("Harry",50000,
                 2018,9,1);
         staff[2]=new hireling("Tommy",40000,
-                2018,10,1);
+                2018,10,1);*/
+
+        //ArrayList 使用
+        ArrayList<hireling> staff = new ArrayList<>();
+
+        staff.add(new hireling("Zharo Ruiqi",75000
+                ,1992,7,1));
+        staff.add(new hireling("Harry",50000
+                ,1993,8,1));
+        staff.add(new hireling("Tony",40000
+                ,1994,9,1));
 
         for(hireling e:staff)
         {
