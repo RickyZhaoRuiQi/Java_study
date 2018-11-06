@@ -11,3 +11,17 @@
     - JDK：Java SE Development Kit，Java标准开发包，它提供了编译、运行Java程序所需要的各种工具和资源、包括Java编译器、Java运行时环境、以及常用的类库等。
     - JRE：Java运行时环境，它包含了JVM（Java虚拟机）还有类加载器、字节码校验器以及大量的基础类库。
 - 6 2018-10-30 Java集合，HashSet和TreeSet（无序和有序）
+- 7 2018-11-6 初识图形用户界面
+    - JFC与Swing。JFC（Java Foundation Classes）
+    - 关于GUI组建和服务的完整集合
+    - 作为Java SE的一个有机部分，主要包含5个方面
+    1. AWT
+    2. Java2D
+    3. Accessibility
+    4. Drag & Drop
+    5. Swing
+    
+    - **Swing**
+    1. JFC的一部分
+    2. 提供按钮、窗口、表格等所有组件
+    3. 纯Java组件（完全用Java所写）
