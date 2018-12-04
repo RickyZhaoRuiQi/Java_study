@@ -1,10 +1,9 @@
 import java.io.Console;
+import java.io.*;
 import java.text.NumberFormat;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main
 {
@@ -75,5 +74,7 @@ public class Main
         double x = 0.1;
         System.out.println(currencyFormatter.format(x));
         System.out.println(percentFormatter.format(x));*/
+
+
     }
 }
